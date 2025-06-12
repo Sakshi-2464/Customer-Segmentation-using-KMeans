@@ -10,10 +10,7 @@ This project applies unsupervised machine learning techniques to identify distin
 - Classification model to predict cluster membership for new customers
 
 ## Dataset
-## 📁 Dataset
-
 The dataset used in this project is the [Mall Customer Segmentation Data](https://www.kaggle.com/datasets/shwetabh123/mall-customers) from Kaggle.
-
 It contains basic customer information:
 - CustomerID
 - Gender
@@ -24,7 +21,7 @@ It contains basic customer information:
 ### Additional Columns Created:
 As part of this project, the following new columns were added through analysis and modeling:
 - `Cluster`: Cluster ID assigned using KMeans
-- `Segment Name`: Descriptive label for each cluster (e.g., *Affluent Big Spenders*)
+- `Segment Name`: Descriptive label for each cluster
 - `Predicted Cluster`: Output from a classification model for new customer inputs
 These enhancements support customer profiling, prediction, and business insights.
 
